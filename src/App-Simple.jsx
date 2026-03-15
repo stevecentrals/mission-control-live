@@ -1,6 +1,3 @@
-// Temporary simple version to get the dashboard working
-// Will add authentication back once this is stable
-
 import { useState, useEffect } from 'react'
 import { BrowserRouter as Router, Routes, Route, NavLink, useLocation } from 'react-router-dom'
 import { 
@@ -54,7 +51,7 @@ function Dashboard() {
 
       <div className="border rounded-lg p-6 bg-green-50 border-green-200">
         <h3 className="font-semibold text-green-700 mb-2">✅ Mission Control Status</h3>
-        <p className="text-green-600">Dashboard is live and working! Authentication will be added in the next update.</p>
+        <p className="text-green-600">Dashboard is live and working! Next step: Add proper authentication system.</p>
       </div>
     </div>
   )
