@@ -5,10 +5,10 @@
   "outputDirectory": "dist",
   "installCommand": "npm install",
   "devCommand": "npm run dev",
-  "routes": [
+  "rewrites": [
     {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "source": "/((?!api|_next/static|_next/image|favicon.ico|assets).*)",
+      "destination": "/index.html"
     }
   ],
   "env": {
