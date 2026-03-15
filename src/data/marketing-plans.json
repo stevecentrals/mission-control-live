@@ -1,0 +1,49 @@
+[
+  {
+    "id": "dr-marinus-appelgryn-siebert",
+    "clientId": "dr-marinus-appelgryn-siebert",
+    "name": "Dr Marinus Appelgryn-Siebert Inc",
+    "status": "→ approval pending",
+    "period": "March 2026 - May 2026 (Q2 2026)",
+    "lastUpdated": "2026-03-01",
+    "primaryAgent": "Content Agent (✍️)",
+    "businessContext": {
+      "industry": "",
+      "businessType": "",
+      "keyChallenges": "",
+      "marketingGoals": ""
+    },
+    "currentPosition": {
+      "platformPerformance": "",
+      "contentStatus": "",
+      "competitivePosition": "",
+      "brandStrength": ""
+    },
+    "objectives": {
+      "primary": [],
+      "kpis": [],
+      "timeline": {}
+    },
+    "platformStrategy": [],
+    "contentStrategy": {
+      "pillars": [],
+      "calendarFramework": {},
+      "specifications": {}
+    },
+    "campaigns": {
+      "active": [],
+      "upcoming": []
+    },
+    "tasks": {
+      "content": [],
+      "monitor": [],
+      "reports": [],
+      "intel": []
+    },
+    "monitoring": {
+      "reviewSchedule": [],
+      "optimizationTriggers": [],
+      "reportingCommunication": []
+    }
+  }
+]

@@ -1,0 +1,312 @@
+[
+  {
+    "id": "dr-marinus-appelgryn-siebert",
+    "name": "Dr Marinus Appelgryn-Siebert Inc",
+    "status": "active",
+    "lastUpdated": "2026-02-24",
+    "overview": {
+      "industry": "Healthcare / Medical Practice",
+      "type": "General Practice + Aesthetics + Occupational Health",
+      "size": "12+ team members across 3 locations",
+      "locations": "Langebaan (main), Yzerfontein, Darling",
+      "website": "drmarinus.co.zahttps://www.drmarinus.co.za",
+      "phone": "022 634 0003",
+      "email": "reception@drmarinus.co.za",
+      "primaryContact": "Dr. Marinus Appelgryn-Siebert (Owner)"
+    },
+    "brand": {
+      "voice": "Warm, professional, caring, community-focused",
+      "style": "Approachable yet expert; family-oriented",
+      "values": [
+        "Compassionate care",
+        "Community service (West Coast focus)",
+        "Personalized attention",
+        "High standard of medical care"
+      ],
+      "tagline": "Compassionate Care in the West Coast",
+      "visualStyle": "Modern, clean medical aesthetic"
+    },
+    "social": {
+      "platforms": [
+        {
+          "name": "facebook",
+          "handle": "@drmarinushttps://facebook.com/drmarinus",
+          "followers": "2,200+",
+          "frequency": "Active",
+          "notes": "Primary platform, good engagement"
+        },
+        {
+          "name": "instagram",
+          "handle": "@drmarinusappelgrynsiebertinchttps://instagram.com/drmarinusappelgrynsiebertinc",
+          "followers": "170+",
+          "frequency": "Moderate",
+          "notes": "Growing, visual content"
+        },
+        {
+          "name": "linkedin",
+          "handle": "Company",
+          "followers": "~100",
+          "frequency": "Low",
+          "notes": "Professional presence"
+        }
+      ],
+      "contentThatWorks": [
+        "Health tips and awareness posts",
+        "Team introductions and behind-the-scenes",
+        "Service announcements (especially aesthetics/weight loss)",
+        "Community engagement posts",
+        "Holiday greetings (#ValentinesDay2026, etc.)"
+      ],
+      "contentGaps": [
+        "Instagram needs more consistent posting",
+        "Video content could be expanded",
+        "Patient testimonials (with consent)",
+        "Educational content about services",
+        "Before/after aesthetic results"
+      ]
+    },
+    "audience": {
+      "primary": {
+        "demographics": "Adults 30-60, families, West Coast residents (Langebaan, Yzerfontein, Darling area)",
+        "psychographics": "Health-conscious, value local/personal service, coastal lifestyle",
+        "painPoints": "Limited healthcare options in small towns, need for accessible quality care",
+        "desires": "Trusted family doctor, convenience, comprehensive services in one place"
+      },
+      "secondary": "Occupational health clients (businesses needing employee medicals); Aesthetic/wellness seekers (Botox, IV therapy, weight loss); Tourists/seasonal residents in the West Coast area"
+    },
+    "competition": {
+      "competitors": [
+        {
+          "name": "Langebaan Family Practice (Dr Dante Wessels)",
+          "strengths": "Established, local",
+          "weaknesses": "Smaller service range",
+          "socialStrategy": "Minimal social"
+        },
+        {
+          "name": "Life West Coast Private Hospital",
+          "strengths": "Hospital facilities, specialists",
+          "weaknesses": "Impersonal, expensive",
+          "socialStrategy": "Corporate"
+        },
+        {
+          "name": "Ceal Island Medical Centre",
+          "strengths": "Urgent care",
+          "weaknesses": "Limited services",
+          "socialStrategy": "Unknown"
+        },
+        {
+          "name": "Dr S Annadale (Velddrif)",
+          "strengths": "Nearby alternative",
+          "weaknesses": "Different town",
+          "socialStrategy": "Unknown"
+        }
+      ],
+      "positioning": "Comprehensive services (GP + Aesthetics + Occupational Health); Multiple locations across West Coast; Large multidisciplinary team; Modern IV therapy and aesthetic offerings; Strong community ties and personal care"
+    },
+    "services": {
+      "categories": [
+        {
+          "name": "Primary Care",
+          "count": 22
+        },
+        {
+          "name": "Emergency Services",
+          "count": 4
+        },
+        {
+          "name": "Aesthetics",
+          "count": 9
+        },
+        {
+          "name": "Occupational Health",
+          "count": 10
+        }
+      ],
+      "products": [
+        {
+          "name": "Cardiac IV",
+          "price": "R1,390",
+          "category": "IV Therapy"
+        },
+        {
+          "name": "Immune Booster",
+          "price": "R2,150",
+          "category": "IV Therapy"
+        },
+        {
+          "name": "Myer's Cocktail IV",
+          "price": "R1,875",
+          "category": "IV Therapy"
+        },
+        {
+          "name": "Babyface Premium",
+          "price": "R2,400",
+          "category": "IV Therapy"
+        },
+        {
+          "name": "Libido Booster IV",
+          "price": "R3,075",
+          "category": "IV Therapy"
+        },
+        {
+          "name": "Hydra Intense Serum",
+          "price": "R450",
+          "category": "Skincare"
+        },
+        {
+          "name": "Defence Barrier",
+          "price": "R320",
+          "category": "Skincare"
+        },
+        {
+          "name": "Collagen Activator",
+          "price": "R300",
+          "category": "Skincare"
+        }
+      ]
+    },
+    "team": [
+      {
+        "name": "Dr. Marinus Appelgryn-Siebert",
+        "role": "General Practitioner (Owner/Lead)"
+      },
+      {
+        "name": "Dr. Kristen Barnes",
+        "role": "General Practitioner"
+      },
+      {
+        "name": "Dr. O'Neill",
+        "role": "General Practitioner"
+      },
+      {
+        "name": "Dr M D Atkins",
+        "role": "General Pediatrician"
+      },
+      {
+        "name": "Celaine Malan",
+        "role": "Clinical Associate"
+      },
+      {
+        "name": "Annemadelein Scherer",
+        "role": "Occupational Therapist"
+      },
+      {
+        "name": "Carina Truter",
+        "role": "Speech-Language Therapist"
+      },
+      {
+        "name": "Christel Swart",
+        "role": "Biokineticist"
+      },
+      {
+        "name": "Cornia Bester",
+        "role": "Physical Therapist"
+      },
+      {
+        "name": "Janine Niehaus",
+        "role": "Dietician"
+      },
+      {
+        "name": "Marit Kleynhans",
+        "role": "Counselling Psychologist"
+      },
+      {
+        "name": "Melinda Van Rooyen",
+        "role": "Counselling Psychologist"
+      }
+    ],
+    "strategy": {
+      "contentPillars": [
+        {
+          "name": "Health Education",
+          "description": "Tips, awareness days, prevention"
+        },
+        {
+          "name": "Meet the Team",
+          "description": "Staff spotlights, expertise highlights"
+        },
+        {
+          "name": "Aesthetic Results",
+          "description": "Treatments, IV benefits, wellness"
+        },
+        {
+          "name": "Community Connection",
+          "description": "West Coast life, local events"
+        },
+        {
+          "name": "Services Showcase",
+          "description": "What we offer, when to visit"
+        }
+      ],
+      "hashtags": {
+        "branded": [
+          "#drmarinusappelgrynsiebert",
+          "#drmarinus"
+        ],
+        "location": [
+          "#langebaan",
+          "#yzerfontein",
+          "#darling",
+          "#westcoast",
+          "#westcoastsa"
+        ],
+        "industry": [
+          "#gp",
+          "#familydoctor",
+          "#aesthetics",
+          "#ivtherapy",
+          "#weightloss",
+          "#occupationalhealth"
+        ]
+      },
+      "postingSchedule": [
+        "**Facebook:** 3-4x per week",
+        "**Instagram:** 4-5x per week (including Stories)",
+        "**Best times:** Weekday mornings (8-10am), evenings (6-8pm)"
+      ]
+    },
+    "notes": {
+      "insights": [
+        "**Strong local presence** — Well-established in Langebaan community",
+        "**Aesthetic services = growth opportunity** — Weight loss and IV therapy are trending",
+        "**Instagram needs work** — Only 170 followers vs 2,200 on Facebook",
+        "**Multi-location advantage** — Covers large West Coast area",
+        "**Team is a selling point** — Multidisciplinary = comprehensive care",
+        "**Video opportunity** — Could leverage short-form for aesthetics/results"
+      ],
+      "reviews": [
+        {
+          "platform": "Google",
+          "rating": "4.6/5",
+          "count": "45 reviews"
+        },
+        {
+          "platform": "Facebook",
+          "rating": "5.0/5",
+          "count": "3 reviews"
+        }
+      ],
+      "assets": [
+        "Brand guidelines: Need to request from client",
+        "Logo files: Available on website",
+        "Image library: Gallery on website",
+        "Social accounts: Facebook, Instagram, LinkedIn"
+      ],
+      "changeLog": [
+        {
+          "date": "2026-02-24",
+          "change": "Initial profile created via browser research",
+          "by": "Steve (for Intel)"
+        }
+      ]
+    },
+    "platforms": [
+      "facebook",
+      "instagram",
+      "linkedin"
+    ],
+    "industry": "Healthcare / Medical Practice",
+    "postsThisWeek": 0,
+    "nextPost": "Pending"
+  }
+]

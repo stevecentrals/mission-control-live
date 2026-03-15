@@ -1,0 +1,51 @@
+{
+  "tasks": [
+    {
+      "id": "task-001",
+      "title": "Set up Google Cloud Service Account for Analytics & Search Console",
+      "description": "Create a service account to enable API access to Google Analytics and Search Console for client reporting.",
+      "status": "todo",
+      "priority": "high",
+      "assignee": "kyle",
+      "client": "dr-marinus-appelgryn-siebert",
+      "category": "setup",
+      "createdAt": "2025-02-24T22:50:00+02:00",
+      "dueDate": "2025-02-25T17:00:00+02:00",
+      "createdBy": "steve",
+      "notes": "## Step 1: Create Google Cloud Project\n\n1. Go to [console.cloud.google.com](https://console.cloud.google.com)\n2. Create a new project (e.g., \"Central Studio Agents\")\n3. Enable these APIs:\n   - **Google Analytics Data API**\n   - **Google Search Console API**\n4. Go to **IAM & Admin → Service Accounts**\n5. Create a service account (e.g., \"openclaw-agent\")\n6. Create a JSON key and download it\n\n## Step 2: Create the Service Account\n\n1. Go to [console.cloud.google.com](https://console.cloud.google.com)\n2. **Create or select a project** (top left dropdown)\n3. In the left sidebar: **IAM & Admin → Service Accounts**\n4. Click **+ Create Service Account** at the top\n5. Fill in:\n   - **Name:** `openclaw-agent` (or whatever you like)\n   - **ID:** auto-fills based on name\n6. **This is where you see the email!** It'll show something like:\n   ```\n   openclaw-agent@your-project-id.iam.gserviceaccount.com\n   ```\n7. Click **Create and Continue**\n8. Skip the optional permissions steps (click **Done**)\n9. Now click on the service account you just created\n10. Go to **Keys** tab → **Add Key → Create new key → JSON**\n11. It downloads a `.json` file — save this for Steve\n\n## Step 3: Grant Access to Dr Marinus's Properties\n\nTake the **service account email** and:\n\n**For Google Analytics:**\n- Go to GA4 → Admin → Property Access Management\n- Add the service account email as **Viewer**\n\n**For Search Console:**\n- Go to [search.google.com/search-console](https://search.google.com/search-console)\n- Select drmarinus.co.za → Settings → Users and permissions\n- Add the service account email as **Full** or **Restricted** user\n\n## Step 4: Save Credentials for Steve\n\n- Save the JSON key file to: `~/.openclaw/credentials/google-service-account.json`\n- Let Steve know it's ready!",
+      "checklist": [
+        { "id": "c1", "text": "Create Google Cloud project", "done": false },
+        { "id": "c2", "text": "Enable Google Analytics Data API", "done": false },
+        { "id": "c3", "text": "Enable Google Search Console API", "done": false },
+        { "id": "c4", "text": "Create service account", "done": false },
+        { "id": "c5", "text": "Download JSON key file", "done": false },
+        { "id": "c6", "text": "Add service account to Dr Marinus GA4", "done": false },
+        { "id": "c7", "text": "Add service account to Dr Marinus Search Console", "done": false },
+        { "id": "c8", "text": "Save JSON to ~/.openclaw/credentials/", "done": false }
+      ],
+      "tags": ["google", "analytics", "seo", "client-setup"],
+      "reminder": {
+        "enabled": true,
+        "intervalHours": 3,
+        "lastSent": null,
+        "channel": "telegram"
+      }
+    }
+  ],
+  "assignees": {
+    "kyle": { "name": "Kyle", "emoji": "👤", "role": "Owner" },
+    "steve": { "name": "Steve", "emoji": "🤔", "role": "Chief of Staff" },
+    "content": { "name": "Content Agent", "emoji": "✍️", "role": "Marketing" },
+    "monitor": { "name": "Monitor Agent", "emoji": "👁️", "role": "Marketing" },
+    "reports": { "name": "Reports Agent", "emoji": "📊", "role": "Marketing" },
+    "intel": { "name": "Intel Agent", "emoji": "🔍", "role": "Marketing" },
+    "cio": { "name": "CIO Agent", "emoji": "🚀", "role": "C-Suite" }
+  },
+  "categories": {
+    "setup": { "label": "Setup", "color": "blue" },
+    "content": { "label": "Content", "color": "purple" },
+    "client": { "label": "Client Work", "color": "green" },
+    "internal": { "label": "Internal", "color": "gray" },
+    "urgent": { "label": "Urgent", "color": "red" }
+  }
+}
