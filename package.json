@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run sync:clients && npm run sync:plans && vite build",
+    "build": "node scripts/build-prod.js && vite build",
+    "build:local": "npm run sync:clients && npm run sync:plans && vite build",
     "preview": "vite preview",
     "sync:clients": "node scripts/sync-clients.js",
     "sync:plans": "node scripts/sync-marketing-plans.js"
